@@ -2,7 +2,7 @@
 Programas ejemplo de como conectar el sensor de temperatura y humedad DHT11 a una Raspberry Pi.
 
 ## Software Necesario
-- Libreria de Adafruit 
+- Libreria de Adafruit Python DHT, disponible en https://github.com/adafruit/Adafruit_Python_DHT
 
 ## Diagrama de conexión
 ![](http://www.internetdelascosas.cl/wp-content/uploads/2017/05/Raspberry-Pi-DHT11_bb-768x374.png)
