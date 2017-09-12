@@ -3,9 +3,11 @@ Programas ejemplo de como conectar el sensor de temperatura y humedad DHT11 a un
 
 ## Software Necesario
 - Librerias de desarrollo Python y cliente MySQL
+
   sudo apt-get install python-pip python-dev libmysqlclient-dev
 
 - Libreria Python MySQLdb
+
   sudo pip install MySQL-python
 
 - Libreria de Adafruit Python DHT, disponible en https://github.com/adafruit/Adafruit_Python_DHT
