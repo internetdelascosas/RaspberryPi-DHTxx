@@ -1,10 +1,10 @@
-# RaspberryPi-DHT11
+# RaspberryPi-DHTxx
 Programas ejemplo de como conectar el sensor de temperatura y humedad DHTxx a una Raspberry Pi.
 
 ## Software Necesario
 - Librerias de desarrollo Python y cliente MySQL
 
-  sudo apt-get install python3-dev **default-libmysqlclient-dev**
+  sudo apt-get install python3-dev ****default-libmysqlclient-dev****
 
 - Libreria Python MySQLdb
 
