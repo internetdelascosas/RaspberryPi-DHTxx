@@ -1,7 +1,7 @@
 # Configuracion para sensor DHTxx
 #
 # Estas variables se sobre escriben en el archivo config_local.py
-# que debe contener estas mismas variables exceptuando las 5 
+# que debe contener estas mismas variables exceptuando las 5
 # ultimas lineas
 
 # Configuracion del puerto GPIO al cual esta conectado (GPIO 23)
@@ -19,5 +19,5 @@ MYSQL_CONTRASENA = "contrasena_super_secreta"
 # Carga la configuracion local desde el archivo config_local.py
 try:
 	from config_local import *
-except Exception, e:
-	print "ERROR: " + str(e)
+except RuntimeError as error:
+	print("ERROR: " + error.args[0])
