@@ -28,5 +28,10 @@ El programa dht_mysql.py escribe los registros en una base de datos MySQL, para 
 
   cat ./sql/create_data.sql | mysql -u [usuario] -p [base_de_datos]
 
+## Ejecucion
+Para ejecutar cada script se debe utilizar el comando sudo, ejemplo:
+
+  sudo python3 dht_consola.py
+
 ## Consultas y sugerencias
 Escribir a contacto@iot.cl
