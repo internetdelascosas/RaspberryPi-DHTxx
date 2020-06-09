@@ -44,7 +44,7 @@ def write_mysql(temperatura, humedad):
 		cursor.execute(sql)
 		db.commit()
 	except:
-		conn.rollback()
+		db.rollback()
 
 	# Cierra cursor y conexion a base de datos
 	cursor.close
